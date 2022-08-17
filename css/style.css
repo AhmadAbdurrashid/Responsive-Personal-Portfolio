@@ -1359,6 +1359,18 @@ img{
       background-color: var(--scroll-thumb-color);
       border-radius: 0.2rem;
     }
+
+    .about__buttons{
+      justify-content: center;
+     
+    }
+
+    .about__button{
+      display: absolute;
+      justify-content: center;
+      margin-left: 50px;
+      height: 100%;
+    }
   }
 
   /* Medium size Screen devices */
@@ -1399,7 +1411,16 @@ img{
         position: absolute;
         transform: translateY(60%);    
       }
+
+      .about__button{
+        display: flex;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-top: 0.2rem;
+       
+      }
   }
+
 
   /* Large size Screen devices */
   @media screen and (min-width: 768px){
@@ -1492,6 +1513,7 @@ img{
       justify-content: center;
     }
     .about__button{
+      display: flex;
       justify-content: center;
       margin-left: 1rem;
       margin-top: 0.2rem;
